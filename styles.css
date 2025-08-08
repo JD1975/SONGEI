@@ -1,0 +1,425 @@
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Baloo+2&display=swap');
+
+@media screen and (min-width: 768px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-size: 20px;
+        margin-top: 1rem;
+        background: white;
+        width: 100%;
+        font-family: 'Bakbak One';
+        font-weight: 400;
+    }
+
+    /* --------------------------- */
+
+    .contenedorInicioNav {
+        display: flex;
+    }
+
+    .imgDog {
+        width: 50%;
+    }
+
+    #dog {
+        width: 100%;
+        height: 65rem;
+    }
+
+
+    /*----------------------------*/
+
+    .contenedorNav {
+        width: 50%;
+    }
+
+    nav {
+        margin-right: 2.25rem;
+        margin-left: 2.25rem;
+        padding: 0.5rem;
+        font-family: 'Bakbak One';
+        font-weight: 400;
+        font-size: 1.5rem;
+        background-color: #0019ff;
+    }
+
+    nav li {
+        text-align: center;
+        display: inline;
+        margin-inline: 3.8rem;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+
+    /* ------------------------- */
+
+    .contenedorInfo {
+        background-color: #efefef;
+        margin-left: 4rem;
+        margin-top: 1.4rem;
+        margin-right: 4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #txtInfo {
+        font-size: 2.5rem;
+        text-align: center;
+        padding: .5rem;
+    }
+
+    #objetivo {
+        padding: .5rem;
+        font-size: 1.3rem;
+        font-family: 'baloo 2';
+        text-align: center;
+
+
+    }
+
+    .contenedorImg {
+        display: flex;
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+        height: 38rem;
+
+    }
+
+
+    #imgF {
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+
+    }
+
+
+    #imgF:hover {
+        /* cursor: crosshair; */
+        cursor: pointer;
+        width: 15%;
+        opacity: 1;
+        filter: contrast(120%);
+
+    }
+
+
+
+
+    #txtSP {
+        font-size: 2rem;
+        font-weight: lighter;
+        text-align: center;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 1rem;
+    }
+
+    #contImgSP {
+        text-align: center;
+        margin-top: .5rem;
+    }
+
+    #sp {
+        width: 4rem;
+        height: 4rem;
+        transition: transform 0.3s ease;
+        /* Agrega una transición para un efecto suave */
+
+    }
+
+    #sp:hover {
+        transform: scale(1.2);
+        /* Escala la imagen al 120% en hover */
+    }
+
+
+    /* --------------------------- */
+
+    .titleSong {
+        color: #000;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .nameArtista {
+        color: #000;
+        text-align: center;
+        font-family: 'Baloo 2';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: lighter;
+
+    }
+
+    .artistasSup {
+        display: flex;
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    .artistasInf,
+    a {
+        text-decoration: none;
+    }
+
+    .artistasSuo,
+    a {
+        text-decoration: none;
+    }
+
+    .artistasInf {
+        display: flex;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    #artistas {
+        width: 19.5rem;
+        height: 18rem;
+        margin: 0.75rem;
+    }
+
+    /* -------------------------------- */
+
+    #txtArtistas {
+        color: #ff002f;
+        text-align: center;
+        font-family: Bakbak One;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 3rem;
+    }
+
+    .topArtistas {
+        display: flex;
+        height: 38rem;
+
+
+    }
+
+    #artistasFooter {
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+
+
+    #artistasFooter:hover {
+
+        cursor: pointer;
+        /* cursor: crosshair; */
+        width: 15%;
+        opacity: 1;
+        filter: contrast(120%);
+
+    }
+
+
+}
+
+
+
+
+
+/* -----------Animaciones------ */
+
+.SG {
+    overflow: hidden;
+    border-radius: 4px;
+    width: 25%;
+}
+
+.SG img {
+    transition: transform 900ms;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.SG:hover img {
+    transform: scale(1.2);
+}
+
+.DC {
+    overflow: hidden;
+    border-radius: 4px;
+    width: 25%;
+
+}
+
+.DC img {
+    transition: transform 900ms;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.DC:hover img {
+    transform: scale(1.2);
+}
+
+.DL {
+    overflow: hidden;
+    border-radius: 4px;
+    width: 25%;
+
+}
+
+.DL img {
+    transition: transform 900ms;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.DL:hover img {
+    transform: scale(1.2);
+}
+
+.OR {
+    overflow: hidden;
+    border-radius: 4px;
+    width: 25%;
+
+}
+
+.OR img {
+    transition: transform 900ms;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.OR:hover img {
+    transform: scale(1.2);
+}
+
+.JK {
+    overflow: hidden;
+    border-radius: 4px;
+    width: 25%;
+
+}
+
+.JK img {
+    transition: transform 900ms;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.JK:hover img {
+    transform: scale(1.2);
+}
+
+.TS {
+    overflow: hidden;
+    border-radius: 4px;
+    width: 25%;
+
+}
+
+.TS img {
+    transition: transform 900ms;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.TS:hover img {
+    transform: scale(1.2);
+}
+
+.PG {
+    overflow: hidden;
+    border-radius: 4px;
+    width: 25%;
+
+}
+
+.PG img {
+    transition: transform 900ms;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.PG:hover img {
+    transform: scale(1.2);
+}
+
+.BE {
+    overflow: hidden;
+    border-radius: 4px;
+    width: 25%;
+
+}
+
+.BE img {
+    transition: transform 900ms;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.BE:hover img {
+    transform: scale(1.2);
+}
+
+
+/* -------- */
+
+/* Estilos para pantalla pequeña */
+@media screen and (max-width: 767px) {
+    .contenedorInicioNav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenedorNav {
+        padding: 10px;
+    }
+
+    .contenedorImg,
+    .contenedorSP {
+        margin-top: 20px;
+    }
+
+    .artistasSup,
+    .artistasInf {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .artistasSup>div,
+    .artistasInf>div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .topArtistas {
+        flex-direction: column;
+    }
+}
+
+
